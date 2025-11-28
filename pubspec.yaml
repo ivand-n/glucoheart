@@ -1,0 +1,64 @@
+name: glucoheart_flutter
+description: "Glucoheart - Health Monitoring App"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.0
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  google_fonts: ^6.3.0
+  flutter_animate: ^4.5.2
+  lottie: ^3.3.1
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Storage
+  shared_preferences: ^2.5.3
+  flutter_secure_storage: ^9.2.4
+
+  # Networking
+  http: ^1.5.0
+  dio: ^5.9.0
+
+  # Utils
+  intl: ^0.20.2
+  logger: ^2.6.1
+  equatable: ^2.0.7
+
+  # Form Validation
+  form_validator: ^2.1.1
+
+  # SVG Icons
+  health_icons: ^0.0.2
+
+  uuid: ^4.5.1
+  fl_chart: ^1.0.0
+  socket_io_client: ^2.0.2
+  timeago: ^3.7.1
+  grouped_list: ^6.0.0
+  flutter_html: ^3.0.0
+  image_picker: ^1.2.0
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
